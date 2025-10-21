@@ -7,14 +7,14 @@ public class Day44 {
         int nilai = sc.nextInt();
 
         if (nilai >= 85)
-            System.out.println("Prediksi nilai: A ");
+            System.out.println("Nilai: A ");
         else if (nilai >= 70) 
-            System.out.println("Prediksi nilai: B ");
+            System.out.println("Nilai: B ");
         else if (nilai >= 55)
-            System.out.println("Prediksi nilai: C ");
+            System.out.println("Nilai: C ");
         else if (nilai >= 40)
-            System.out.println("Prediksi nilai: D ");
+            System.out.println("Nilai: D ");
         else
-            System.out.println("Prediksi nilai: E");
+            System.out.println("Nilai: E");
     }
 }
